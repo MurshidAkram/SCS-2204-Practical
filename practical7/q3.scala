@@ -6,11 +6,6 @@ object q3{
     if(num == 2){
       return true
     }
-   // for(i <- 2 to math.sqrt(num).toInt){
-     // if(num % i == 0){
-       // return false
-     // }
-   // }
     else!(2 to math.sqrt(num).toInt).exists(i => num % i == 0)
   }
 
